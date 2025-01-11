@@ -1,0 +1,31 @@
+<nav style="margin: 20px 0;">
+    <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 30px;">
+      <li>
+        <a href="{{ '/' | relative_url }}" style="text-decoration: none; color: #4a90e2; font-weight: 500; padding: 8px 15px; border-radius: 20px; transition: all 0.3s ease;">
+          <span style="margin-right: 5px;">🏠</span>Home
+        </a>
+      </li>
+      <li>
+        <a href="{{ '/about/' | relative_url }}" style="text-decoration: none; color: #4a90e2; font-weight: 500; padding: 8px 15px; border-radius: 20px; transition: all 0.3s ease;">
+          <span style="margin-right: 5px;">👤</span>About Me
+        </a>
+      </li>
+      <li>
+        <a href="{{ '/skills/' | relative_url }}" style="text-decoration: none; color: #4a90e2; font-weight: 500; padding: 8px 15px; border-radius: 20px; transition: all 0.3s ease;">
+          <span style="margin-right: 5px;">🎯</span>Skills
+        </a>
+      </li>
+      <li>
+        <a href="{{ '/contact/' | relative_url }}" style="text-decoration: none; color: #4a90e2; font-weight: 500; padding: 8px 15px; border-radius: 20px; transition: all 0.3s ease;">
+          <span style="margin-right: 5px;">📧</span>Contact
+        </a>
+      </li>
+    </ul>
+</nav>
+<style>
+  nav a:hover {
+    background: #4a90e2;
+    color: white !important;
+    transform: translateY(-2px);
+  }
+</style>
