@@ -22,8 +22,8 @@ title: "My CV Blog"
 email: silvesterrichards6446@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my blog!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sjh04.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # leave empty for user site
+url: "https://sjh04.github.io" # replace with your GitHub username
 
 # Build settings
 markdown: kramdown
